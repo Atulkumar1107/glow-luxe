@@ -18,42 +18,61 @@ const BulletList = ({ items }) => (
 );
 
 const FAQSection = () => {
-  const FAQData = {
-    heading: "Frequently Asked Questions",
-    info: "Everything you need to know about the Yegg Peg Botanical Skincare Collection.",
-    items: [
-      {
-        question: "What are your products made of?",
-        answer:
-          "Our products are crafted from 100% organic, botanical extracts and premium natural ingredients for maximum efficacy and skin harmony.",
-        type: "text",
-      },
-      {
-        question: "Are they suitable for all skin types?",
-        answer: [
-          "Dermatologist tested for sensitive skin",
-          "Balanced pH formulas",
-          "Non-comedogenic (won't clog pores)",
-          "Free from parabens and sulfates",
-        ],
-        type: "list",
-        introduction:
-          "Yes, our collection is designed to be gentle yet effective across all skin concerns:",
-      },
-      {
-        question: "Is your packaging sustainable?",
-        answer:
-          "Yes, we use eco-friendly, recyclable materials for all our packaging to reduce our environmental footprint.",
-        type: "text",
-      },
-      {
-        question: "How soon can I see results?",
-        answer:
-          "While individual results vary, most users report a noticeable improvement in skin hydration and radiance within 7-14 days of consistent use.",
-        type: "text",
-      },
-    ],
-  };
+const FAQData = {
+  heading: "Frequently Asked Questions",
+  info: "Everything you need to know about GlowLuxe beauty tools and skincare essentials.",
+  items: [
+    {
+      question: "How do I use the GlowLuxe Facial Roller?",
+      answer:
+        "Use the roller on clean skin after applying serum or moisturizer. Gently glide upward and outward across the face and neck for 5–10 minutes to improve circulation and reduce puffiness.",
+      type: "text",
+    },
+    {
+      question: "What are the benefits of the LED Face Massager?",
+      answer: [
+        "Stimulates collagen production",
+        "Helps reduce fine lines and puffiness",
+        "Enhances absorption of skincare products",
+        "Improves overall skin texture",
+      ],
+      type: "list",
+      introduction:
+        "The GlowLuxe LED Face Massager offers multiple skincare benefits:",
+    },
+    {
+      question: "Are your products suitable for all skin types?",
+      answer:
+        "Yes. GlowLuxe beauty tools and treatments are designed to be gentle and effective for all skin types, including sensitive skin.",
+      type: "text",
+    },
+    {
+      question: "How often should I use these products?",
+      answer:
+        "For best results, use your facial roller or LED massager 3–5 times per week. Hydro gel patches and sheet masks can be used 2–3 times weekly for enhanced hydration.",
+      type: "text",
+    },
+    {
+      question: "When will I see visible results?",
+      answer:
+        "Most users notice improved hydration and reduced puffiness within 1–2 weeks of consistent use. Long-term benefits improve with regular skincare rituals.",
+      type: "text",
+    },
+    {
+      question: "Are GlowLuxe tools safe to use daily?",
+      answer: [
+        "Non-invasive and skin-friendly design",
+        "Ergonomic and gentle application",
+        "Dermatologically safe materials",
+        "Designed for home use",
+      ],
+      type: "list",
+      introduction:
+        "Yes, our tools are designed for safe and regular use:",
+    },
+  ],
+};
+
 
   const renderAnswer = (item) => {
     if (item.type === "list") {

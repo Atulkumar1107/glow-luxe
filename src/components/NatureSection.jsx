@@ -1,10 +1,10 @@
 import React from "react";
 
 const NatureSection = () => {
-  const natureData = {
-    title: "Pure Elements. Pure Radiance. Pure Skin.",
-    bannerVideo: "/videos/nature-video.mp4", // 👈 put your video path here
-  };
+const natureData = {
+  title: "Your Glow. Your Ritual. Your Moment.",
+  bannerVideo: "/videos/glowluxe-video.mp4",
+};
 
   return (
     <div className="relative h-screen w-full">
@@ -22,7 +22,8 @@ const NatureSection = () => {
         </video>
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
+     <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-black/10"></div>
+
       </div>
 
       {/* Content */}

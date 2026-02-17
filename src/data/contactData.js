@@ -1,14 +1,14 @@
 export const contactHeaderData = {
   section: {
-    title: "Get In Touch",
+    title: "We’re Here to Help",
     description:
-      "We’d love to hear from you. Whether you have a question about our products or services, feel free to reach out.",
+      "Have questions about your order, skincare routine, or GlowLuxe products? Our support team is ready to assist you with care and quick responses.",
   },
 };
 
 export const contactSidebarData = {
-  phone: "+91 9876543210",
-  email: "info@example.com",
-  address: "123 Business Street, New Delhi, India",
-  workingHours: "Mon - Sat : 9:00 AM - 6:00 PM",
+  phone: "+91 98765 43210",
+  email: "support@glowluxe.com",
+  address: "GlowLuxe Beauty Studio, New Delhi, India",
+  workingHours: "Mon - Fri : 10:00 AM - 6:00 PM",
 };

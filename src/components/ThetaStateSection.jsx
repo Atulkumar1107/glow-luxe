@@ -1,17 +1,17 @@
 import React from "react";
 
 const ThetaStateSection = () => {
-  const thetaData = {
-    backImage: "https://res.cloudinary.com/dwau5poqz/image/upload/v1771330714/pexels-rdne-8183916_eisrkg.jpg",
-    title: "YEGG PEG SKINCARE",
-    heading: "Glow with Natural Radiance",
-    description:
-      "Our advanced botanical formulas are designed with precision and premium organic extracts to provide deep hydration, firming, and a natural glow that lasts.",
-    viewBtn: {
-      title: "View Products",
-      url: "/shopnow",
-    },
-  };
+const thetaData = {
+  backImage: "https://res.cloudinary.com/dwau5poqz/image/upload/v1771330714/pexels-rdne-8183916_eisrkg.jpg",
+  title: "GLOWLUXE",
+  heading: "Luxury Skincare, Reimagined",
+  description:
+    "Crafted for the modern woman, our advanced beauty tools and performance-driven formulas deliver visible results with elegance and precision.",
+  viewBtn: {
+    title: "Discover GlowLuxe",
+    url: "/shopnow",
+  },
+};
 
   return (
     <div className="relative h-screen w-full">

@@ -1,7 +1,7 @@
 export const shippingPolicyData = {
   hero: {
     title: "Shipping Policy",
-    backgroundImage: "/images/resource_3.jpg",
+    backgroundImage: "/images/shipping-bg.jpg",
     breadcrumb: [
       { label: "Home", link: "/" },
       { label: "Shipping Policy" },
@@ -10,44 +10,52 @@ export const shippingPolicyData = {
 
   content: {
     intro:
-      "Please review our shipping policy to understand how and when your order will be delivered.",
+      "At GlowLuxe, we are committed to delivering your beauty essentials quickly and safely. Please review our shipping policy below for detailed information about order processing and delivery timelines.",
 
     sections: [
       {
-        title: "Processing Time",
+        title: "Order Processing",
         points: [
-          "Orders are processed within 1-3 business days.",
-          "Orders placed on weekends or holidays will be processed on the next business day.",
-          "Processing time may vary during peak seasons.",
+          "All orders are processed within 1–2 business days after payment confirmation.",
+          "Orders placed on weekends or public holidays will be processed on the next working day.",
+          "During promotional periods, processing times may be slightly extended.",
         ],
       },
       {
-        title: "Shipping Time",
+        title: "Shipping & Delivery Time",
         points: [
-          "Standard shipping typically takes 5-7 business days.",
-          "Express shipping options are available at checkout.",
-          "Delivery times may vary depending on location.",
+          "Standard delivery typically takes 4–7 business days within India.",
+          "Metro cities may receive orders faster depending on courier availability.",
+          "Delivery timelines may vary based on your location and external courier factors.",
         ],
       },
       {
         title: "Shipping Charges",
         points: [
-          "Shipping costs are calculated at checkout.",
-          "Free shipping may be available on qualifying orders.",
-          "International shipping fees may include customs duties or taxes.",
+          "Shipping charges are calculated at checkout based on your location.",
+          "Free shipping is available on selected orders and promotional campaigns.",
+          "Any additional delivery surcharges (if applicable) will be displayed before payment.",
         ],
       },
       {
         title: "Order Tracking",
         points: [
-          "You will receive a tracking number once your order ships.",
-          "Tracking details will be sent to your registered email.",
-          "You can also view tracking information in your account dashboard.",
+          "Once your order is shipped, you will receive a tracking link via email or SMS.",
+          "You can monitor real-time delivery status through the courier partner’s website.",
+          "For assistance, our support team is available to help track your order.",
+        ],
+      },
+      {
+        title: "Damaged or Delayed Orders",
+        points: [
+          "If your order arrives damaged, please contact us within 48 hours with clear photos.",
+          "In rare cases of courier delays, we will assist in resolving the issue promptly.",
+          "GlowLuxe is not responsible for delays caused by unforeseen logistical disruptions.",
         ],
       },
     ],
 
     note:
-      "Please note that delivery delays may occur due to unforeseen circumstances such as weather conditions or carrier issues.",
+      "GlowLuxe strives to ensure timely delivery, but delays may occasionally occur due to weather conditions, courier disruptions, or high-demand periods.",
   },
 };

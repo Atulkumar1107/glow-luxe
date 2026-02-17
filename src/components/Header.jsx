@@ -190,7 +190,7 @@ const Header = ({ forceDark = false }) => {
                   )}
                 </div>
 
-                <Link href="/about" className={navLinkClass}>About</Link>
+                <Link href="/aboutus" className={navLinkClass}>About</Link>
                 <Link href="/contact" className={navLinkClass}>Contact</Link>
               </div>
 

@@ -11,7 +11,7 @@ import {
 } from "@/data/aboutData";
 
 export default function AboutUs() {
-  const { misson } = missionData;
+  const { mission } = missionData;
   const { section } = AboutProductData;
 
   return (
@@ -54,10 +54,10 @@ export default function AboutUs() {
       <div className="relative bg-[#FAF9F6] py-16 px-4">
         <div className="max-w-4xl -mb-8 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl text-[#916a6b] font-black font-serif mb-8 uppercase tracking-tight">
-            {misson.title}
+            {mission.title}
           </h2>
           <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed text-gray-700 font-medium">
-            {misson.description}
+            {mission.description}
           </p>
         </div>
       </div>

@@ -32,7 +32,7 @@ const headerData = {
     },
     {
       title: "About Us",
-      link: "/about",
+      link: "/us",
     },
     {
       title: "Contact",

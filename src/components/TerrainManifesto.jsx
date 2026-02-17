@@ -1,11 +1,12 @@
 import React from "react";
 
 const TerrainManifesto = () => {
-  const terrainData = {
-    title: "Pure Botanicals for Your Skin",
-    description:
-      "At Yegg Peg, we believe that nature is the ultimate healer. Our skincare products are formulated with organic ingredients and sustainable practices, ensuring your skin receives the purest care without compromise.",
-  };
+const terrainData = {
+  title: "Where Science Meets Soft Beauty",
+  description:
+    "GlowLuxe brings together innovative beauty tools and skin-loving formulas to create a luxurious self-care ritual. Designed for modern women, our products help reduce puffiness, boost hydration, and reveal a radiant, confident glow every day.",
+};
+
 
   return (
     <div className="bg-[#FAF9F6] py-24 px-4 md:px-8 border-y border-gray-100/50">

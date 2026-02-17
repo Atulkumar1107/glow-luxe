@@ -1,45 +1,55 @@
 export const returnPolicyData = {
   hero: {
-    title: "Return Policy",
-    backgroundImage: "/images/resource_3.jpg",
+    title: "Return & Refund Policy",
+    backgroundImage: "/images/return-bg.jpg",
     breadcrumb: [
       { label: "Home", link: "/" },
-      { label: "Return Policy" }
+      { label: "Return & Refund Policy" }
     ],
   },
 
   content: {
     intro:
-      "Please review our return policy carefully before making a purchase.",
+      "At GlowLuxe, your satisfaction matters to us. Please review our return and refund policy carefully before making a purchase.",
 
     sections: [
       {
-        title: "Returns",
+        title: "Returns Eligibility",
         points: [
-          "Items can be returned within 30 days of delivery.",
-          "Products must be unused and in original packaging.",
-          "Proof of purchase is required for all returns."
+          "Products can be returned within 7 days of delivery.",
+          "Items must be unused, unopened, and in original packaging.",
+          "Due to hygiene reasons, opened skincare products cannot be returned.",
+          "Proof of purchase is required for all return requests."
         ],
       },
       {
-        title: "Refunds",
+        title: "Refund Process",
         points: [
-          "Refunds will be processed within 7-10 business days.",
-          "Shipping charges are non-refundable.",
-          "Refunds will be issued to the original payment method."
+          "Approved refunds are processed within 5–7 business days.",
+          "Refunds will be issued to the original payment method.",
+          "Shipping charges are non-refundable unless the item is defective.",
+          "You will receive confirmation once the refund has been initiated."
+        ],
+      },
+      {
+        title: "Damaged or Defective Products",
+        points: [
+          "If you receive a damaged or defective item, contact us within 48 hours of delivery.",
+          "Please provide clear photos or videos as proof of damage.",
+          "Eligible products will be replaced or refunded after verification."
         ],
       },
       {
         title: "Exchanges",
         points: [
-          "Exchanges are subject to product availability.",
-          "Defective or damaged products are eligible for replacement.",
-          "Contact support before sending any product back."
+          "Exchanges are subject to stock availability.",
+          "We currently do not offer exchanges for used products.",
+          "Contact our support team before sending any product back."
         ],
       }
     ],
 
     note:
-      "Please note that some calls may be recorded for quality and training purposes."
+      "GlowLuxe reserves the right to refuse returns that do not meet the above conditions. For assistance, please contact our support team at support@glowluxe.com."
   }
 };

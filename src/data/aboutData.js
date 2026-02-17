@@ -1,45 +1,47 @@
 export const aboutData = {
-  title: "Our Botanical Mission",
+  title: "Redefining Everyday Beauty",
   backgroundVideo: {
-    url: "/videos/about-bg.mp4",
+    url: "/videos/glowluxe-about.mp4",
   },
   Slogan: [
-    { text: "Purity" },
-    { text: "Radiance" },
-    { text: "Harmony" },
+    { text: "Sculpt" },
+    { text: "Hydrate" },
+    { text: "Illuminate" },
   ],
 };
 
+
 export const missionData = {
-  misson: {
+  mission: {
     title: "Our Mission",
     description:
-      "We are dedicated to crafting premium, botanical skincare solutions that honor the power of nature. Our goal is to provide your skin with the purest organic extracts and sustainable care, bringing out your natural radiance with every ritual.",
+      "At GlowLuxe, our mission is to empower modern women with innovative beauty tools and performance-driven skincare essentials. We design products that enhance natural radiance, elevate daily rituals, and deliver visible results — all from the comfort of home.",
   },
 };
+
 
 export const cardData = {
   card: [
     {
-      title: "Botanical Purity",
+      title: "Precision Beauty Tools",
       description:
-        "Every year, our skin is exposed to harsh pollutants. Learn how to protect and nourish your skin with our organic, plant-based formulas.",
+        "From facial rollers to LED massagers, our tools are crafted to improve circulation, reduce puffiness, and sculpt your natural contours.",
       image: {
         url: "/images/card1.jpg",
       },
     },
     {
-      title: "Advanced Skin Vitality",
+      title: "Hydration Technology",
       description:
-        "Deeply hydrating serums and masks that restore skin elasticity and ensure a healthy, vibrant glow.",
+        "Our hydro gel treatments and sheet masks are formulated to deeply nourish and lock in moisture for long-lasting glow.",
       image: {
         url: "/images/card2.jpg",
       },
     },
     {
-      title: "Sustainable Wellness",
+      title: "Modern Self-Care Rituals",
       description:
-        "Ethically sourced ingredients and eco-friendly packaging to ensure our beauty rituals respect the Earth.",
+        "GlowLuxe transforms everyday skincare into a luxurious ritual designed for confidence, relaxation, and radiant results.",
       image: {
         url: "/images/card3.jpg",
       },
@@ -47,15 +49,17 @@ export const cardData = {
   ],
 };
 
+
 export const AboutProductData = {
   section: {
-    title: "Our Skincare Line",
+    title: "The GlowLuxe Collection",
     description:
-      "Explore our advanced botanical systems designed to nourish, revitalize, and protect your skin's natural beauty.",
+      "Discover our curated selection of advanced beauty tools and skincare essentials designed to sculpt, hydrate, and illuminate your skin.",
   },
 };
 
+
 export const contactData = {
-  phone: "+1 (800) BOTANIC",
-  email: "hello@yeggpegskincare.com",
+  phone: "+1 (800) GLOWLUXE",
+  email: "support@glowluxe.com",
 };

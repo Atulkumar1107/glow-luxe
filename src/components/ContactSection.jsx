@@ -3,15 +3,15 @@ import React, { useState } from "react";
 import { Send, Check } from "lucide-react";
 
 const ContactSection = () => {
-  const [formData, setFormData] = useState({
-    fullName: "",
-    email: "",
-    companyName: "",
-    phoneNumber: "",
-    aboutProject: "",
-    hasReadPrivacy: false,
-    acceptsMarketing: false,
-  });
+const [formData, setFormData] = useState({
+  fullName: "",
+  email: "",
+  phoneNumber: "",
+  subject: "",
+  message: "",
+  hasReadPrivacy: false,
+});
+
 
   const [focusedField, setFocusedField] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -47,16 +47,16 @@ const ContactSection = () => {
                 <Check className="w-8 h-8 text-green-600" />
               </div>
               <h2 className="text-2xl font-semibold text-gray-800">
-                Thank You!
+               Thank You for Reaching Out 💖
               </h2>
               <p className="text-gray-600">
-                We’ve received your message and will contact you shortly.
+                Our GlowLuxe support team will get back to you within 24 hours.
               </p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
               <h2 className="text-3xl font-bold text-gray-800 mb-8">
-                Get in Touch
+               We’re Here to Help
               </h2>
 
               {/* INPUT GRID */}
@@ -171,7 +171,7 @@ const ContactSection = () => {
                       : "top-3 text-gray-400"
                   }`}
                 >
-                  About Your Project*
+                  How Can We Help You?*
                 </label>
               </div>
 
@@ -229,11 +229,11 @@ const ContactSection = () => {
 
             <div className="space-y-4">
               <h3 className="text-2xl font-extrabold text-[#916a6b] tracking-tight">
-                Let’s Build Something Great
+      Need Help With Your Glow?
               </h3>
               <p className="text-gray-500 font-medium leading-relaxed">
-                Have a project in mind? Need product assistance?  
-                Our team is ready to help you with expert guidance and quick support.
+               Have questions about your order or our beauty tools? 
+  Our support team is here to assist you quickly and professionally.
               </p>
             </div>
             

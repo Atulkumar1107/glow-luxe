@@ -2,15 +2,16 @@ import React from "react";
 import Link from "next/link";
 
 const CTASection = () => {
-  const CTAData = {
-    title: "Ready to Transform Your Skin?",
-    description:
-      "Experience the power of nature with the Yegg Peg Botanical Collection. Formulated for purity. Designed for radiance.",
-    contactBtn: {
-      title: "Contact Us",
-      url: "/contact",
-    },
-  };
+const CTAData = {
+  title: "Your Glow Journey Starts Here",
+  description:
+    "Discover modern skincare tools crafted to enhance your natural beauty. Sculpt, soothe, and shine with GlowLuxe.",
+  contactBtn: {
+    title: "Explore GlowLuxe",
+    url: "/shopnow",
+  },
+};
+
 
   return (
     <div className="bg-[#FAF9F6] p-8 md:p-12">

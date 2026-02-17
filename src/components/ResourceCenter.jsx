@@ -4,13 +4,13 @@ import React from "react";
 
 const ResourceCenter = () => {
   // 🔥 HARDCODED DATA
-  const title = "Skincare Resource Center";
-  const description =
-    "Explore skin health guides, botanical insights, and expert rituals designed to help you achieve natural radiance with confidence.";
-  
+const title = "Why GlowLuxe Works";
+const description =
+  "Our beauty tools are designed to improve circulation, boost hydration absorption, and visibly enhance skin texture — giving you spa-level results at home.";
+
   const viewBtn = {
-    title: "Explore Resources",
-    url: "/resources",
+    title: "Know About GlowLuxe",
+    url: "/aboutus",
   };
 
   const images = [
@@ -19,7 +19,7 @@ const ResourceCenter = () => {
   ];
 
   return (
-    <div className="bg-[#FAF9F6] py-24 md:py-32 border-y border-gray-100/50">
+    <div className="bg-[#FFF5F6] py-24 md:py-32 border-y border-gray-100/50">
       <div className="container max-w-[1370px] mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           
