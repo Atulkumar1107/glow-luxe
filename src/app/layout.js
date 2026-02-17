@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Glow Luxe",
-  description: "We are dedicated to crafting premium, botanical skincare solutions that honor the power of nature. Our goal is to provide your skin with the purest organic extracts and sustainable care, bringing out your natural radiance with every ritual.",
+  description: "We are dedicated to crafting premium, botanical skincare solutions that honor the power of nature. Our goal is to provide your skin with the purest organic sustainable care, bringing out your natural radiance with every ritual.",
 };
 
 // ✅ Static frontend data
