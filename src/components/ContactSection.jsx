@@ -221,9 +221,9 @@ const [formData, setFormData] = useState({
             <div className="relative group">
               <div className="absolute inset-0 bg-[#916a6b]/10 rounded-[1.5rem] rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
               <img
-                src="/images/contact.jpg"
+                src="https://res.cloudinary.com/dwau5poqz/image/upload/v1771519314/0oH-Oa2QuL_BkD9rg6FFbF1uZ5B0RxH1N4iFpxhbDdVUVrQ3QPSCuCdS0T99u2q6DCcZl1QLm6TORuNtvHCPU8LGGSKrRnn-q3pKtwiv_L8_hpc73o.jpg"
                 alt="Contact illustration"
-                className="relative w-full h-80 object-cover rounded-[1.5rem] shadow-lg grayscale hover:grayscale-0 transition-all duration-500"
+                className="relative w-full h-80 object-cover rounded-[1.5rem] shadow-lg  transition-all duration-500"
               />
             </div>
 

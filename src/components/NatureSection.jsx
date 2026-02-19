@@ -3,7 +3,7 @@ import React from "react";
 const NatureSection = () => {
 const natureData = {
   title: "Your Glow. Your Ritual. Your Moment.",
-  bannerVideo: "/videos/glowluxe-video.mp4",
+  bannerVideo: "https://res.cloudinary.com/dwau5poqz/video/upload/v1771518701/8955781-uhd_3840_2160_24fps_wsizcj.mp4",
 };
 
   return (

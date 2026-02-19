@@ -1,7 +1,7 @@
 export const termsData = {
   hero: {
     title: "Terms & Conditions",
-    backgroundImage: "/images/terms-bg.jpg",
+    backgroundImage: "https://res.cloudinary.com/dwau5poqz/image/upload/v1771519789/pexels-markus-winkler-1430818-12153576_wnv3ke.jpg",
     breadcrumb: [
       { label: "Home", link: "/" },
       { label: "Terms & Conditions" },

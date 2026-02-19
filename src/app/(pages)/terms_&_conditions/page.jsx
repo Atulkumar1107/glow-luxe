@@ -38,7 +38,7 @@ export default function TermsAndConditions() {
                     {item.label}
                   </a>
                 ) : (
-                  <span className="text-[#916a6b] font-bold">
+                  <span className="text-white font-bold">
                     {item.label}
                   </span>
                 )}

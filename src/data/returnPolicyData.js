@@ -1,7 +1,7 @@
 export const returnPolicyData = {
   hero: {
     title: "Return & Refund Policy",
-    backgroundImage: "/images/return-bg.jpg",
+    backgroundImage: "https://res.cloudinary.com/dwau5poqz/image/upload/v1771519785/pexels-tima-miroshnichenko-6169043_rjmuds.jpg",
     breadcrumb: [
       { label: "Home", link: "/" },
       { label: "Return & Refund Policy" }

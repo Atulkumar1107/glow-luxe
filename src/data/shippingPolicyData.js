@@ -1,7 +1,7 @@
 export const shippingPolicyData = {
   hero: {
     title: "Shipping Policy",
-    backgroundImage: "/images/shipping-bg.jpg",
+    backgroundImage: "https://res.cloudinary.com/dwau5poqz/image/upload/v1771519522/H176e13127975435ba5dacdc0c81db6f13_bhgc6l.avif",
     breadcrumb: [
       { label: "Home", link: "/" },
       { label: "Shipping Policy" },
